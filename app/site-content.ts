@@ -4,7 +4,7 @@ export const siteContent = {
   eyebrow: "Local phone repair",
   intro: "Straightforward, personal phone repair from Alex Greene - helping people get their devices back in hand since 2018.",
   experienceSince: "2018",
-  messengerUrl: "https://www.facebook.com/messages/",
+  messengerUrl: "https://www.facebook.com/share/18CCwuDdhJ/",
   phone: "",
   services: [
     { number: "01", title: "Phone repair", description: "Tell Alex what happened and what your phone is doing. He will help you figure out the next step." },
