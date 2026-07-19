@@ -1,5 +1,5 @@
 export const siteContent = {
-  businessName: "Greens Repair",
+  businessName: "Greenes Repair",
   ownerName: "Alex Greene",
   eyebrow: "Local phone repair",
   intro: "Straightforward, personal phone repair from Alex Greene - helping people get their devices back in hand since 2018.",

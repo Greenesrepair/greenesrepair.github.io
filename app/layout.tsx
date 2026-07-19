@@ -9,15 +9,17 @@ const publicUrl = "https://greenesrepair.github.io";
 
 export const metadata: Metadata = {
   metadataBase: new URL(publicUrl),
-  title: "Greens Repair | Phone Repair by Alex Greene",
+  title: "Greenes Repair | Phone Repair by Alex Greene",
   description: "Personal phone repair from Alex Greene, helping people with their devices since 2018. PC repair coming soon.",
+  alternates: { canonical: publicUrl },
+  robots: { index: true, follow: true },
   openGraph: {
     url: publicUrl,
-    title: "Greens Repair | Phone Repair by Alex Greene",
+    title: "Greenes Repair | Phone Repair by Alex Greene",
     description: "Personal phone repair since 2018. PC repair coming soon.",
-    images: [{ url: `${publicUrl}/og.png`, width: 1732, height: 909, alt: "Greens Repair - Phone repair by Alex Greene since 2018" }],
+    images: [{ url: `${publicUrl}/og.png`, width: 1732, height: 909, alt: "Greenes Repair - Phone repair by Alex Greene since 2018" }],
   },
-  twitter: { card: "summary_large_image", images: [`${publicUrl}/og.png`] },
+  twitter: { card: "summary_large_image", title: "Greenes Repair | Phone Repair by Alex Greene", description: "Personal phone repair since 2018. PC repair coming soon.", images: [`${publicUrl}/og.png`] },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

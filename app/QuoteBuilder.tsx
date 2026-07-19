@@ -7,7 +7,7 @@ export function QuoteBuilder() {
   const [device, setDevice] = useState("");
   const [issue, setIssue] = useState("");
   const [copied, setCopied] = useState(false);
-  const message = useMemo(() => `Hi Alex! I found Greens Repair online. I need help with my ${device.trim() || "phone"}. ${issue.trim() || "Here is what is going on: "}`.trim(), [device, issue]);
+  const message = useMemo(() => `Hi Alex! I found Greenes Repair online. I need help with my ${device.trim() || "phone"}. ${issue.trim() || "Here is what is going on: "}`.trim(), [device, issue]);
 
   async function prepareMessage(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();

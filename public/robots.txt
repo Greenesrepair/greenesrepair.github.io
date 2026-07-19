@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://greenesrepair.github.io/sitemap.xml
