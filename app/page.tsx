@@ -26,7 +26,10 @@ export default function Home() {
           <div className="hero-actions"><a className="button button-primary" href={siteContent.facebookUrl} target="_blank" rel="noreferrer">Message Alex on Facebook <span>&rarr;</span></a><a className="text-link" href="#quote">Build a quote message</a></div>
           <div className="trust-row"><div><strong>Since {siteContent.experienceSince}</strong><span>Repairing phones</span></div><div><strong>Owner-operated</strong><span>Talk directly with Alex</span></div><div><strong>Clear next steps</strong><span>Start with a quick message</span></div></div>
         </div>
-        <div className="hero-visual" aria-label="Phone repair illustration"><div className="sun-shape" /><div className="workbench" /><span className="tool tool-one" /><span className="tool tool-two" /><div className="phone"><div className="phone-speaker" /><div className="phone-screen"><span className="screen-leaf">G</span><small>Greenes Repair</small></div></div><div className="status-card"><span>OK</span><div><strong>Personal service</strong><small>From first message to pickup</small></div></div><p className="visual-note">PHONE REPAIR / LOCAL CARE</p></div>
+        <figure className="hero-visual">
+          <img src="/greenes-repair-logo.jpg" alt="Greenes Repair logo with a phone, repair tools, leaves, and the words Phone Repair Done Right Since 2018" />
+          <figcaption><span>Official mark</span><strong>Phone repair done right.</strong></figcaption>
+        </figure>
       </section>
       <section className="services section" id="services">
         <div className="section-heading"><p className="eyebrow"><span />What Alex does</p><h2>Repair help without the runaround.</h2><p>Start with the device and the problem. Alex will help you understand what comes next.</p></div>
