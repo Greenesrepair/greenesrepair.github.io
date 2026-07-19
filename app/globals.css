@@ -95,6 +95,8 @@ h1 em { color:var(--green); font-weight:430; }
 .quote .eyebrow.light { color:#39271c; }
 .quote .eyebrow>span { background:white; }
 .quote-heading>p:last-child { max-width:430px; line-height:1.65; }
+.facebook-contact { width:max-content; max-width:100%; margin-top:24px; padding-bottom:5px; display:block; border-bottom:2px solid white; color:#16342c; overflow-wrap:anywhere; font-weight:850; }
+.facebook-contact:hover { border-color:var(--green); }
 .quote-form { background:var(--paper); padding:34px; border-radius:20px; box-shadow:14px 14px 0 rgba(22,52,44,.18); }
 .quote-form label { display:grid; gap:8px; margin-bottom:22px; }
 .quote-form label span { font-size:12px; text-transform:uppercase; letter-spacing:.1em; font-weight:800; }

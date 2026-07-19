@@ -24,8 +24,8 @@ export function QuoteBuilder() {
     <form className="quote-form" onSubmit={prepareMessage}>
       <label><span>Phone or device</span><input value={device} onChange={(e) => setDevice(e.target.value)} placeholder="e.g. iPhone 13" /></label>
       <label><span>What is going on?</span><input value={issue} onChange={(e) => setIssue(e.target.value)} placeholder="e.g. screen is cracked" /></label>
-      <div className="quote-actions"><button className="button button-dark" type="submit">{copied ? "Message copied!" : "Prepare my message"}</button><p>Copy it, then send it to Alex in Messenger.</p></div>
-      {copied && <div className="copied-panel" role="status"><p>Ready to send:</p><strong>{message}</strong><a href={siteContent.messengerUrl} target="_blank" rel="noreferrer">Open Messenger &rarr;</a></div>}
+      <div className="quote-actions"><button className="button button-dark" type="submit">{copied ? "Message copied!" : "Prepare my message"}</button><p>Copy it, then open Alex&apos;s Facebook profile to send it in Messenger.</p></div>
+      {copied && <div className="copied-panel" role="status"><p>Ready to send:</p><strong>{message}</strong><a href={siteContent.facebookUrl} target="_blank" rel="noreferrer">Open Alex&apos;s Facebook &rarr;</a></div>}
     </form>
   );
 }
